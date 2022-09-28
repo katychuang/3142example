@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Compile Code
-        run: g++ main.cpp
+        run: g++ src/main.cpp
       - run: ./a.out
