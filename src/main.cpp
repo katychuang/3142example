@@ -1,3 +1,5 @@
+// sample program that prints hello world
+
 #include <iostream>
 using namespace std::cout;
 
