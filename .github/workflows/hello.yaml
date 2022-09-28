@@ -5,8 +5,8 @@ on:
 jobs:
   demo:
     runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Compile Code
-          run: g++ main.cpp
-        - run: ./a.out
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile Code
+        run: g++ main.cpp
+      - run: ./a.out
